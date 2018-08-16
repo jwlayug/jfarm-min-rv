@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import { Container } from "semantic-ui-react";
 import TestComponent from "../../features/testarea/TestComponent";
 import ModalManager from "../../features/modals/ModalManager";
+import NavBar from "../../features/nav/NavBar/NavBar";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           path="/(.+)"
           render={() => (
             <div>
+              <NavBar />
               <Container className="main">
                 <Switch>
                   <Route path="/test" component={TestComponent} />
