@@ -12,7 +12,7 @@ class NavBar extends Component {
           <Menu.Item name="EMPLOYEES" />
           <Menu.Item name="GROUPS" />
           <Menu.Item name="TRAVELS" />
-          <Menu.Item position="right">
+          {/* <Menu.Item position="right">
             <Button basic inverted content="Login" />
             <Button
               basic
@@ -20,7 +20,7 @@ class NavBar extends Component {
               content="Sign Out"
               style={{ marginLeft: "0.5em" }}
             />
-          </Menu.Item>
+          </Menu.Item> */}
         </Container>
       </Menu>
     );
